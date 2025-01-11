@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nobrokenarmor",
+  "version": "${version}",
+  "name": "NobrokenArmor",
+  "description": "Armor is no broken",
+  "authors": [
+    "ChongYu"
+  ],
+  "contact": {
+    "repo": "https://github.com/16348/NobrokenArmor"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chongyu.nobrokenarmor.NobrokenArmor"
+    ]
+  },
+  "mixins": [
+    "nobrokenarmor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.20",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
